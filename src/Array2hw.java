@@ -93,6 +93,18 @@ public class Array2hw {
 
 
 
+        // задание 4
+
+
+        char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+
+        for (int i = reverseFullName.length - 1; i >= 0;  i--) {      // i = количеству ячеек масива, пока i >= 0 цикл продолжается
+            System.out.print(reverseFullName[i]);
+        }
+
+
+
+
 
 
     }
